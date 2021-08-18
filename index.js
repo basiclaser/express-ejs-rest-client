@@ -18,7 +18,7 @@ app
 
 app
   .get("/test-ejs", (req, res) => {
-    res.render('pages/index');
+    res.render('pages/index', {myTitle:"qlwndqwiondoqwidjwqjdio"});
   })
   
 var server = app.listen(3000,function(){
